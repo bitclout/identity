@@ -28,28 +28,28 @@ header @html Cache-Control no-store
 header @html Content-Security-Policy "
   default-src 'self';
   connect-src
-    {$DOMAIN:https://node.deso.org}/api/v0/get-users-stateless
-    {$DOMAIN:https://node.deso.org}/api/v0/get-app-state
-    {$DOMAIN:https://node.deso.org}/api/v0/jumio-begin
-    {$DOMAIN:https://node.deso.org}/api/v0/jumio-flow-finished
-    {$DOMAIN:https://node.deso.org}/api/v0/get-referral-info-for-referral-hash
-    {$DOMAIN:https://node.deso.org}/api/v0/get-user-derived-keys
-    {$DOMAIN:https://node.deso.org}/api/v0/get-transaction-spending
-    {$DOMAIN:https://node.deso.org}/api/v0/send-phone-number-verification-text
-    {$DOMAIN:https://node.deso.org}/api/v0/submit-phone-number-verification-code
-    {$DOMAIN:https://node.deso.org}/api/v0/get-transaction-spending-limit-hex-string
-    {$DOMAIN:https://node.deso.org}/api/v0/get-transaction-spending-limit-response-from-hex/
-    {$DOMAIN:https://node.deso.org}/api/v0/get-single-post
-    {$DOMAIN:https://node.deso.org}/api/v0/get-exchange-rate
-    {$DOMAIN:https://node.deso.org}/api/v0/query-eth-rpc
-    {$DOMAIN:https://node.deso.org}/api/v0/submit-eth-tx
-    {$DOMAIN:https://node.deso.org}/api/v0/get-access-bytes
-    {$DOMAIN:https://node.deso.org}/api/v0/send-starter-deso-for-metamask-account
-    {$DOMAIN:https://node.deso.org}/api/v0/authorize-derived-key
-    {$DOMAIN:https://node.deso.org}/api/v0/get-txn
-    {$DOMAIN:https://node.deso.org}/api/v0/verify-captcha
-    {$DOMAIN:https://node.deso.org}/api/v0/get-bulk-messaging-public-keys
-    {$DOMAIN:https://node.deso.org}/api/v0/submit-transaction
+    {$DOMAIN:https://devnet-0.deso.run}/api/v0/get-users-stateless
+    {$DOMAIN:https://devnet-0.deso.run}/api/v0/get-app-state
+    {$DOMAIN:https://devnet-0.deso.run}/api/v0/jumio-begin
+    {$DOMAIN:https://devnet-0.deso.run}/api/v0/jumio-flow-finished
+    {$DOMAIN:https://devnet-0.deso.run}/api/v0/get-referral-info-for-referral-hash
+    {$DOMAIN:https://devnet-0.deso.run}/api/v0/get-user-derived-keys
+    {$DOMAIN:https://devnet-0.deso.run}/api/v0/get-transaction-spending
+    {$DOMAIN:https://devnet-0.deso.run}/api/v0/send-phone-number-verification-text
+    {$DOMAIN:https://devnet-0.deso.run}/api/v0/submit-phone-number-verification-code
+    {$DOMAIN:https://devnet-0.deso.run}/api/v0/get-transaction-spending-limit-hex-string
+    {$DOMAIN:https://devnet-0.deso.run}/api/v0/get-transaction-spending-limit-response-from-hex/
+    {$DOMAIN:https://devnet-0.deso.run}/api/v0/get-single-post
+    {$DOMAIN:https://devnet-0.deso.run}/api/v0/get-exchange-rate
+    {$DOMAIN:https://devnet-0.deso.run}/api/v0/query-eth-rpc
+    {$DOMAIN:https://devnet-0.deso.run}/api/v0/submit-eth-tx
+    {$DOMAIN:https://devnet-0.deso.run}/api/v0/get-access-bytes
+    {$DOMAIN:https://devnet-0.deso.run}/api/v0/send-starter-deso-for-metamask-account
+    {$DOMAIN:https://devnet-0.deso.run}/api/v0/authorize-derived-key
+    {$DOMAIN:https://devnet-0.deso.run}/api/v0/get-txn
+    {$DOMAIN:https://devnet-0.deso.run}/api/v0/verify-captcha
+    {$DOMAIN:https://devnet-0.deso.run}/api/v0/get-bulk-messaging-public-keys
+    {$DOMAIN:https://devnet-0.deso.run}/api/v0/submit-transaction
     https://test.deso.org/api/v0/get-users-stateless
     https://test.deso.org/api/v0/get-app-state
     https://test.deso.org/api/v0/jumio-begin
@@ -81,7 +81,7 @@ header @html Content-Security-Policy "
     https://explorer-api.walletconnect.com/
     wss://relay.walletconnect.com/;
   img-src 'self'
-      {$DOMAIN:https://node.deso.org}/api/v0/get-single-profile-picture/
+      {$DOMAIN:https://devnet-0.deso.run}/api/v0/get-single-profile-picture/
       https://test.deso.org/api/v0/get-single-profile-picture/
       i.imgur.com
       images.deso.org
